@@ -1,0 +1,43 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^3.3.0",
+    "axios": "^0.18.0",
+    "date-fns": "^2.0.0-alpha.16",
+    "faker": "^5.5.3",
+    "google-maps-react": "^2.0.2",
+    "graphql": "^14.0.2",
+    "graphql-tag": "^2.10.0",
+    "material-ui": "^1.0.0-beta.47",
+    "material-ui-pickers": "^1.0.0-rc.17",
+    "materialize-css": "^1.0.0-rc.2",
+    "prop-types": "^15.6.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-loading": "^2.0.3",
+    "react-materialize": "^3.10.0",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.0.5",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "sweetalert2": "^7.28.7"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

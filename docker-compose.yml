@@ -1,0 +1,12 @@
+version: '2'
+services:
+    webserver-wa:
+        build: .
+        environment:
+          API_URL: 'webServer-api'
+          API_PORT: '5000'
+          API_ENTRY: 'graphql'
+
+        command: "npm start\t--port 3000"
+        ports:
+            - '3000:3000'
